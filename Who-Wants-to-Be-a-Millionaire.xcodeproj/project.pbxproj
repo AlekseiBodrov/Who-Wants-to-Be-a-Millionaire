@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
 		6ECFD08F2996CC9000105F3D /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECFD08A2996CC8F00105F3D /* ScheduleViewController.swift */; };
 		6ECFD0902996CC9000105F3D /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECFD08B2996CC9000105F3D /* RegistrationViewController.swift */; };
 		6ECFD0912996CC9000105F3D /* QuestionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECFD08C2996CC9000105F3D /* QuestionsModel.swift */; };
@@ -14,6 +15,7 @@
 		6ECFD0932996CC9000105F3D /* RepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECFD08E2996CC9000105F3D /* RepeatViewController.swift */; };
 		6ECFD0952996CD3A00105F3D /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6ECFD0942996CD3A00105F3D /* Fonts */; };
 		6ECFD0972996CD5A00105F3D /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 6ECFD0962996CD5A00105F3D /* Extension */; };
+		97E9D1AE2996C6E3005B2430 /* ChooseQuestionViewController 2 in Resources */ = {isa = PBXBuildFile; fileRef = 97E9D1AD2996C6E2005B2430 /* ChooseQuestionViewController 2 */; };
 		D7CF71FC2996B1F800B00550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF71FB2996B1F800B00550 /* AppDelegate.swift */; };
 		D7CF71FE2996B1F800B00550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF71FD2996B1F800B00550 /* SceneDelegate.swift */; };
 		D7CF72002996B1F800B00550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF71FF2996B1F800B00550 /* ViewController.swift */; };
@@ -29,6 +31,7 @@
 		6ECFD08E2996CC9000105F3D /* RepeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatViewController.swift; sourceTree = "<group>"; };
 		6ECFD0942996CD3A00105F3D /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		6ECFD0962996CD5A00105F3D /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extension; sourceTree = "<group>"; };
+		97E9D1AD2996C6E2005B2430 /* ChooseQuestionViewController 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ChooseQuestionViewController 2"; sourceTree = "<group>"; };
 		D7CF71F82996B1F800B00550 /* Who-Wants-to-Be-a-Millionaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who-Wants-to-Be-a-Millionaire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CF71FB2996B1F800B00550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7CF71FD2996B1F800B00550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +74,7 @@
 				D7CF71FB2996B1F800B00550 /* AppDelegate.swift */,
 				D7CF71FD2996B1F800B00550 /* SceneDelegate.swift */,
 				D7CF71FF2996B1F800B00550 /* ViewController.swift */,
+				97E9D1AD2996C6E2005B2430 /* ChooseQuestionViewController 2 */,
 				D7CF72042996B1FB00B00550 /* Assets.xcassets */,
 				D7CF72062996B1FB00B00550 /* LaunchScreen.storyboard */,
 				D7CF72092996B1FB00B00550 /* Info.plist */,
@@ -144,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ECFD0952996CD3A00105F3D /* Fonts in Resources */,
+				97E9D1AE2996C6E3005B2430 /* ChooseQuestionViewController 2 in Resources */,
 				D7CF72082996B1FB00B00550 /* LaunchScreen.storyboard in Resources */,
 				D7CF72052996B1FB00B00550 /* Assets.xcassets in Resources */,
 				6ECFD0972996CD5A00105F3D /* Extension in Resources */,
