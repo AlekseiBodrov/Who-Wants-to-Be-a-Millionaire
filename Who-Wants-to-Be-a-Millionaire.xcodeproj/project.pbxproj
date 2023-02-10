@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97E9D1AE2996C6E3005B2430 /* ChooseQuestionViewController 2 in Resources */ = {isa = PBXBuildFile; fileRef = 97E9D1AD2996C6E2005B2430 /* ChooseQuestionViewController 2 */; };
 		D7CF71FC2996B1F800B00550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF71FB2996B1F800B00550 /* AppDelegate.swift */; };
 		D7CF71FE2996B1F800B00550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF71FD2996B1F800B00550 /* SceneDelegate.swift */; };
 		D7CF72002996B1F800B00550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF71FF2996B1F800B00550 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97E9D1AD2996C6E2005B2430 /* ChooseQuestionViewController 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ChooseQuestionViewController 2"; sourceTree = "<group>"; };
 		D7CF71F82996B1F800B00550 /* Who-Wants-to-Be-a-Millionaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who-Wants-to-Be-a-Millionaire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CF71FB2996B1F800B00550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7CF71FD2996B1F800B00550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				D7CF71FB2996B1F800B00550 /* AppDelegate.swift */,
 				D7CF71FD2996B1F800B00550 /* SceneDelegate.swift */,
 				D7CF71FF2996B1F800B00550 /* ViewController.swift */,
+				97E9D1AD2996C6E2005B2430 /* ChooseQuestionViewController 2 */,
 				D7CF72042996B1FB00B00550 /* Assets.xcassets */,
 				D7CF72062996B1FB00B00550 /* LaunchScreen.storyboard */,
 				D7CF72092996B1FB00B00550 /* Info.plist */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97E9D1AE2996C6E3005B2430 /* ChooseQuestionViewController 2 in Resources */,
 				D7CF72082996B1FB00B00550 /* LaunchScreen.storyboard in Resources */,
 				D7CF72052996B1FB00B00550 /* Assets.xcassets in Resources */,
 			);
