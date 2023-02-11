@@ -7,20 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		577A1B052997ADF8008CA967 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577A1B042997ADF8008CA967 /* RulesViewController.swift */; };
+		577A1B072997AED3008CA967 /* LicenseText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577A1B062997AED3008CA967 /* LicenseText.swift */; };
+		57E5EDFC2997B1AA0019253E /* InGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5EDFB2997B1AA0019253E /* InGameViewController.swift */; };
+		57E5EDFE2997B21D0019253E /* QuestionBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5EDFD2997B21D0019253E /* QuestionBrain.swift */; };
+		57E5EE012997B2970019253E /* AnswerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5EE002997B2970019253E /* AnswerButtonView.swift */; };
+		57F79AEE29982DBC005168E1 /* Syne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57F79AEB29982DBB005168E1 /* Syne-Regular.ttf */; };
+		57F79AEF29982DBC005168E1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57F79AEC29982DBC005168E1 /* Roboto-Bold.ttf */; };
+		57F79AF029982DBC005168E1 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57F79AED29982DBC005168E1 /* Roboto-Medium.ttf */; };
+		57F79AF529983302005168E1 /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79AF229983301005168E1 /* UIStackView + Extension.swift */; };
+		57F79AF629983302005168E1 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79AF329983301005168E1 /* UIFont + Extension.swift */; };
+		57F79AF729983302005168E1 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79AF429983301005168E1 /* UIColor + Extension.swift */; };
+		57F79AFF29985349005168E1 /* ChooseQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79AFC29985349005168E1 /* ChooseQuestionView.swift */; };
+		57F79B0029985349005168E1 /* ChooseQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79AFD29985349005168E1 /* ChooseQuestionViewController.swift */; };
+		57F79B0129985349005168E1 /* QuestionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79AFE29985349005168E1 /* QuestionButton.swift */; };
+		6ECFD08F2996CC9000105F3D /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECFD08A2996CC8F00105F3D /* ScheduleViewController.swift */; };
+		6ECFD0902996CC9000105F3D /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECFD08B2996CC9000105F3D /* RegistrationViewController.swift */; };
+		6ECFD0912996CC9000105F3D /* QuestionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECFD08C2996CC9000105F3D /* QuestionsModel.swift */; };
+		6ECFD0922996CC9000105F3D /* QuestionsLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECFD08D2996CC9000105F3D /* QuestionsLibrary.swift */; };
+		6ECFD0932996CC9000105F3D /* RepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECFD08E2996CC9000105F3D /* RepeatViewController.swift */; };
 		D7CF71FC2996B1F800B00550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF71FB2996B1F800B00550 /* AppDelegate.swift */; };
-		D7CF71FE2996B1F800B00550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF71FD2996B1F800B00550 /* SceneDelegate.swift */; };
-		D7CF72002996B1F800B00550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF71FF2996B1F800B00550 /* ViewController.swift */; };
-		D7CF72032996B1F800B00550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CF72012996B1F800B00550 /* Main.storyboard */; };
 		D7CF72052996B1FB00B00550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CF72042996B1FB00B00550 /* Assets.xcassets */; };
 		D7CF72082996B1FB00B00550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CF72062996B1FB00B00550 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		577A1B042997ADF8008CA967 /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		577A1B062997AED3008CA967 /* LicenseText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseText.swift; sourceTree = "<group>"; };
+		57E5EDFB2997B1AA0019253E /* InGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InGameViewController.swift; sourceTree = "<group>"; };
+		57E5EDFD2997B21D0019253E /* QuestionBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBrain.swift; sourceTree = "<group>"; };
+		57E5EE002997B2970019253E /* AnswerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButtonView.swift; sourceTree = "<group>"; };
+		57F79AEB29982DBB005168E1 /* Syne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Syne-Regular.ttf"; sourceTree = "<group>"; };
+		57F79AEC29982DBC005168E1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		57F79AED29982DBC005168E1 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		57F79AF229983301005168E1 /* UIStackView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
+		57F79AF329983301005168E1 /* UIFont + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		57F79AF429983301005168E1 /* UIColor + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		57F79AFC29985349005168E1 /* ChooseQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseQuestionView.swift; sourceTree = "<group>"; };
+		57F79AFD29985349005168E1 /* ChooseQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseQuestionViewController.swift; sourceTree = "<group>"; };
+		57F79AFE29985349005168E1 /* QuestionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionButton.swift; sourceTree = "<group>"; };
+		6ECFD08A2996CC8F00105F3D /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		6ECFD08B2996CC9000105F3D /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		6ECFD08C2996CC9000105F3D /* QuestionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsModel.swift; sourceTree = "<group>"; };
+		6ECFD08D2996CC9000105F3D /* QuestionsLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsLibrary.swift; sourceTree = "<group>"; };
+		6ECFD08E2996CC9000105F3D /* RepeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatViewController.swift; sourceTree = "<group>"; };
 		D7CF71F82996B1F800B00550 /* Who-Wants-to-Be-a-Millionaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who-Wants-to-Be-a-Millionaire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CF71FB2996B1F800B00550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D7CF71FD2996B1F800B00550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7CF71FF2996B1F800B00550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7CF72022996B1F800B00550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7CF72042996B1FB00B00550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7CF72072996B1FB00B00550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7CF72092996B1FB00B00550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +69,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		577A1B002997AD00008CA967 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57E5EDFF2997B2740019253E /* InGameViews */,
+				6ECFD08B2996CC9000105F3D /* RegistrationViewController.swift */,
+				6ECFD08E2996CC9000105F3D /* RepeatViewController.swift */,
+				6ECFD08A2996CC8F00105F3D /* ScheduleViewController.swift */,
+				577A1B042997ADF8008CA967 /* RulesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		577A1B012997AD27008CA967 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6ECFD08C2996CC9000105F3D /* QuestionsModel.swift */,
+				57E5EDFD2997B21D0019253E /* QuestionBrain.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		577A1B022997AD6F008CA967 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				6ECFD08D2996CC9000105F3D /* QuestionsLibrary.swift */,
+				577A1B062997AED3008CA967 /* LicenseText.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		577A1B032997ADAF008CA967 /* SuportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D7CF72062996B1FB00B00550 /* LaunchScreen.storyboard */,
+				D7CF72042996B1FB00B00550 /* Assets.xcassets */,
+				D7CF72092996B1FB00B00550 /* Info.plist */,
+				D7CF71FB2996B1F800B00550 /* AppDelegate.swift */,
+			);
+			path = SuportingFiles;
+			sourceTree = "<group>";
+		};
+		57E5EDFF2997B2740019253E /* InGameViews */ = {
+			isa = PBXGroup;
+			children = (
+				57F79AFB29985331005168E1 /* ChooseQuestionViewController 2 */,
+				57E5EDFB2997B1AA0019253E /* InGameViewController.swift */,
+				57E5EE002997B2970019253E /* AnswerButtonView.swift */,
+			);
+			path = InGameViews;
+			sourceTree = "<group>";
+		};
+		57F79AEA29982D9B005168E1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				57F79AEC29982DBC005168E1 /* Roboto-Bold.ttf */,
+				57F79AED29982DBC005168E1 /* Roboto-Medium.ttf */,
+				57F79AEB29982DBB005168E1 /* Syne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		57F79AF1299832D2005168E1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				57F79AF429983301005168E1 /* UIColor + Extension.swift */,
+				57F79AF329983301005168E1 /* UIFont + Extension.swift */,
+				57F79AF229983301005168E1 /* UIStackView + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		57F79AFB29985331005168E1 /* ChooseQuestionViewController 2 */ = {
+			isa = PBXGroup;
+			children = (
+				57F79AFC29985349005168E1 /* ChooseQuestionView.swift */,
+				57F79AFD29985349005168E1 /* ChooseQuestionViewController.swift */,
+				57F79AFE29985349005168E1 /* QuestionButton.swift */,
+			);
+			path = "ChooseQuestionViewController 2";
+			sourceTree = "<group>";
+		};
 		D7CF71EF2996B1F700B00550 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +169,12 @@
 		D7CF71FA2996B1F800B00550 /* Who-Wants-to-Be-a-Millionaire */ = {
 			isa = PBXGroup;
 			children = (
-				D7CF71FB2996B1F800B00550 /* AppDelegate.swift */,
-				D7CF71FD2996B1F800B00550 /* SceneDelegate.swift */,
-				D7CF71FF2996B1F800B00550 /* ViewController.swift */,
-				D7CF72012996B1F800B00550 /* Main.storyboard */,
-				D7CF72042996B1FB00B00550 /* Assets.xcassets */,
-				D7CF72062996B1FB00B00550 /* LaunchScreen.storyboard */,
-				D7CF72092996B1FB00B00550 /* Info.plist */,
+				57F79AF1299832D2005168E1 /* Extensions */,
+				57F79AEA29982D9B005168E1 /* Fonts */,
+				577A1B032997ADAF008CA967 /* SuportingFiles */,
+				577A1B022997AD6F008CA967 /* Storage */,
+				577A1B002997AD00008CA967 /* ViewControllers */,
+				577A1B012997AD27008CA967 /* Models */,
 			);
 			path = "Who-Wants-to-Be-a-Millionaire";
 			sourceTree = "<group>";
@@ -126,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7CF72082996B1FB00B00550 /* LaunchScreen.storyboard in Resources */,
+				57F79AF029982DBC005168E1 /* Roboto-Medium.ttf in Resources */,
+				57F79AEF29982DBC005168E1 /* Roboto-Bold.ttf in Resources */,
+				57F79AEE29982DBC005168E1 /* Syne-Regular.ttf in Resources */,
 				D7CF72052996B1FB00B00550 /* Assets.xcassets in Resources */,
-				D7CF72032996B1F800B00550 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +252,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7CF72002996B1F800B00550 /* ViewController.swift in Sources */,
+				57E5EE012997B2970019253E /* AnswerButtonView.swift in Sources */,
 				D7CF71FC2996B1F800B00550 /* AppDelegate.swift in Sources */,
-				D7CF71FE2996B1F800B00550 /* SceneDelegate.swift in Sources */,
+				57F79AF529983302005168E1 /* UIStackView + Extension.swift in Sources */,
+				57E5EDFE2997B21D0019253E /* QuestionBrain.swift in Sources */,
+				6ECFD0912996CC9000105F3D /* QuestionsModel.swift in Sources */,
+				6ECFD0922996CC9000105F3D /* QuestionsLibrary.swift in Sources */,
+				57F79AFF29985349005168E1 /* ChooseQuestionView.swift in Sources */,
+				577A1B072997AED3008CA967 /* LicenseText.swift in Sources */,
+				57E5EDFC2997B1AA0019253E /* InGameViewController.swift in Sources */,
+				57F79B0029985349005168E1 /* ChooseQuestionViewController.swift in Sources */,
+				57F79AF729983302005168E1 /* UIColor + Extension.swift in Sources */,
+				6ECFD0932996CC9000105F3D /* RepeatViewController.swift in Sources */,
+				6ECFD08F2996CC9000105F3D /* ScheduleViewController.swift in Sources */,
+				577A1B052997ADF8008CA967 /* RulesViewController.swift in Sources */,
+				57F79B0129985349005168E1 /* QuestionButton.swift in Sources */,
+				57F79AF629983302005168E1 /* UIFont + Extension.swift in Sources */,
+				6ECFD0902996CC9000105F3D /* RegistrationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D7CF72012996B1F800B00550 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7CF72022996B1F800B00550 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D7CF72062996B1FB00B00550 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,14 +407,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q6CQH2T6SR;
+				DEVELOPMENT_TEAM = 8RR26756PN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Who-Wants-to-Be-a-Millionaire/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +422,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pet.Who-Wants-to-Be-a-Millionaire";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,14 +438,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q6CQH2T6SR;
+				DEVELOPMENT_TEAM = 8RR26756PN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Who-Wants-to-Be-a-Millionaire/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +453,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pet.Who-Wants-to-Be-a-Millionaire";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
