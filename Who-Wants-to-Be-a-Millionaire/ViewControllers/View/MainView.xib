@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MainView" customModule="Who_Wants_to_Be_a_Millionaire" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="KmC-Gw-XBA">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MilllionaireLogo" translatesAutoresizingMaskIntoConstraints="NO" id="CsW-1d-aQE">
+                    <rect key="frame" x="75" y="147" width="240" height="240"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="CsW-1d-aQE" secondAttribute="height" id="HVl-ud-XGr"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4k8-fS-ICE">
+                    <rect key="frame" x="75" y="487" width="240" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Старт"/>
+                    <connections>
+                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="4QK-KN-w7O"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RjZ-Za-3o4">
+                    <rect key="frame" x="75" y="572" width="240" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Правила игры"/>
+                    <connections>
+                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="lvN-PB-nAs"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="RjZ-Za-3o4" firstAttribute="width" secondItem="4k8-fS-ICE" secondAttribute="width" id="2F7-ec-HrN"/>
+                <constraint firstItem="CsW-1d-aQE" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="100" id="5ob-Bs-1g3"/>
+                <constraint firstItem="KmC-Gw-XBA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7J2-T7-jxp"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CsW-1d-aQE" secondAttribute="trailing" constant="75" id="D26-po-TdS"/>
+                <constraint firstAttribute="bottom" secondItem="KmC-Gw-XBA" secondAttribute="bottom" id="FqN-gT-Qqx"/>
+                <constraint firstItem="RjZ-Za-3o4" firstAttribute="top" secondItem="4k8-fS-ICE" secondAttribute="bottom" constant="50" id="K7P-oD-rvp"/>
+                <constraint firstItem="4k8-fS-ICE" firstAttribute="top" secondItem="CsW-1d-aQE" secondAttribute="bottom" constant="100" id="Kk2-2r-5iC"/>
+                <constraint firstItem="4k8-fS-ICE" firstAttribute="width" secondItem="CsW-1d-aQE" secondAttribute="width" id="VTO-wS-2Or"/>
+                <constraint firstItem="RjZ-Za-3o4" firstAttribute="height" secondItem="4k8-fS-ICE" secondAttribute="height" id="X7F-Lv-tla"/>
+                <constraint firstItem="CsW-1d-aQE" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ZPw-74-Qye"/>
+                <constraint firstAttribute="trailing" secondItem="KmC-Gw-XBA" secondAttribute="trailing" id="hQr-sW-Cmh"/>
+                <constraint firstItem="CsW-1d-aQE" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="75" id="j2d-RG-SnS"/>
+                <constraint firstItem="RjZ-Za-3o4" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="k3U-qg-QQ1"/>
+                <constraint firstItem="4k8-fS-ICE" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tk2-pA-GgK"/>
+                <constraint firstItem="KmC-Gw-XBA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vyj-5D-IfH"/>
+            </constraints>
+            <connections>
+                <outlet property="rulesButton" destination="RjZ-Za-3o4" id="761-dD-qCI"/>
+                <outlet property="startButton" destination="4k8-fS-ICE" id="m7J-0i-HtI"/>
+            </connections>
+            <point key="canvasLocation" x="-78.461538461538453" y="-1.4218009478672986"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="MilllionaireLogo" width="201" height="201"/>
+        <image name="backgroundImage" width="414" height="736"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
