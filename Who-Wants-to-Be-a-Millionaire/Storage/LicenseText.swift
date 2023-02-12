@@ -8,9 +8,7 @@
 import UIKit
 
 struct LicenseText{
-    var mainTitle = "Rules of the game - Who wants to be a millionaire?"
-    
-    var multiLineStringRulesList = """
+   static let multiLineStringRulesList = """
     The game Who wants to become a millionaire? - This is a quiz contest in which participants must correctly answer a series of multiple-choice questions to advance to the next level. There are 15 questions in total, each question costs a certain amount of money, the participants have a time limit for providing an answer - the time for reflection is 30 seconds. Participants also receive three kinds of hints to help themselves if they get stuck on a particular question.
 
     Questions “Who wants to become a millionaire?” structured according to five different levels, with the difficulty level gradually increasing. Each level contains three questions. Questions grouped at the same level will have the same difficulty.

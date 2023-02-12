@@ -14,7 +14,7 @@ final class AnswerView: UIView {
     private var numberOfAnswerLabel = UILabel()
     private var answerLabel = UILabel()
     
-    var onViewTapped: ((String) -> Void)?
+    var isSelected: ((String) -> Void)?
     
     // MARK: - Init
     override init(frame: CGRect) {
@@ -71,12 +71,10 @@ final class AnswerView: UIView {
     
     // MARK: - LABELS
     private func configureNumberOfANswerLabel() {
-        numberOfAnswerLabel.font = UIFont.robotoMedium24()
         numberOfAnswerLabel.textColor = .white
     }
     
     private func configureAnswerLabel() {
-        answerLabel.font = UIFont.robotoMedium18()
         answerLabel.textColor = .white
         answerLabel.textAlignment = .right
     }
@@ -123,7 +121,7 @@ final class AnswerView: UIView {
     }
     
     @objc private func onViewPressed() {
-        onViewTapped?(answerLabel.text ?? "")
+        isSelected?(answerLabel.text ?? "")
     }
 }
 

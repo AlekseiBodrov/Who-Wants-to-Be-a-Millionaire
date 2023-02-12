@@ -35,7 +35,7 @@ final class ScheduleViewController: UIViewController {
     
     private let graphicsBackground: UIView = {
         let view = UIView()
-        view.backgroundColor = .specialLightBlue
+        view.backgroundColor = .blue
         view.translatesAutoresizingMaskIntoConstraints = false
         
         return view
@@ -43,7 +43,7 @@ final class ScheduleViewController: UIViewController {
     
     private let answerFirst: UIView = {
         let view = UIView()
-        view.backgroundColor = .specialRed
+        view.backgroundColor = .red
         view.translatesAutoresizingMaskIntoConstraints = false
         
         return view
@@ -51,7 +51,7 @@ final class ScheduleViewController: UIViewController {
     
     private let answerSecond: UIView = {
         let view = UIView()
-        view.backgroundColor = .specialRed
+        view.backgroundColor = .red
         view.translatesAutoresizingMaskIntoConstraints = false
 
         return view
@@ -59,7 +59,7 @@ final class ScheduleViewController: UIViewController {
 
     private let answerThird: UIView = {
         let view = UIView()
-        view.backgroundColor = .specialRed
+        view.backgroundColor = .red
         view.translatesAutoresizingMaskIntoConstraints = false
 
         return view
@@ -67,7 +67,7 @@ final class ScheduleViewController: UIViewController {
 
     private let answerFourth: UIView = {
         let view = UIView()
-        view.backgroundColor = .specialRed
+        view.backgroundColor = .red
         view.translatesAutoresizingMaskIntoConstraints = false
 
         return view

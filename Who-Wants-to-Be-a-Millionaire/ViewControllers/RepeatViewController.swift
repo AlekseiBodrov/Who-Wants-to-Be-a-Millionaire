@@ -32,7 +32,7 @@ final class RepeatViewController: UIViewController {
         let label = UILabel()
         label.text = "You losed on {attempt} attempt"
         label.textColor = .white
-        label.font = .robotoMedium24()
+//        label.font = .robotoMedium24()
         label.textAlignment = .center
         label.translatesAutoresizingMaskIntoConstraints = false
         
@@ -42,8 +42,8 @@ final class RepeatViewController: UIViewController {
     private let loseLabel: UILabel = {
         let label = UILabel()
         label.text = "LOSE"
-        label.textColor = .specialRed
-        label.font = .syneRegular50()
+        label.textColor = .red
+//        label.font = .syneRegular50()
         label.textAlignment = .center
         label.translatesAutoresizingMaskIntoConstraints = false
         
@@ -54,12 +54,12 @@ final class RepeatViewController: UIViewController {
     
     private let playAgainButton: UIButton = {
         let button = UIButton(type: .system)
-        button.backgroundColor = .specialGreen
+        button.backgroundColor = .green
         button.layer.cornerRadius = 20
         button.setTitle("PLAY AGAIN", for: .normal)
-        button.titleLabel?.font = .robotoMedium36()
+//        button.titleLabel?.font = .robotoMedium36()
         button.tintColor = .white
-        button.addTarget(self, action: #selector(playAgainButtonTapped), for: .touchUpInside)
+        button.addTarget(RepeatViewController.self, action: #selector(playAgainButtonTapped), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         
         return button
@@ -82,11 +82,11 @@ final class RepeatViewController: UIViewController {
     //MARK: - flow funcs
     private func configure() {
         view.addSubview(backgroundImage)
-        
-        stackView = UIStackView(
-            arrangedSubviews: [gameIconImage, infoLoseLabel, loseLabel],
-            axis: .vertical,
-            spacing: 10)
+//        
+//        stackView = UIStackView(
+//            arrangedSubviews: [gameIconImage, infoLoseLabel, loseLabel],
+//            axis: .vertical,
+//            spacing: 10)
         
         view.addSubview(stackView)
         

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+/*
 extension UIFont{
     
     // Medium
@@ -52,3 +52,4 @@ extension UIFont{
         return UIFont.init(name: "Syne-Regular", size: 50)
     }
 }
+*/
